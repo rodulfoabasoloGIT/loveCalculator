@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.couple-names {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 2rem;
+}
+.couple-names span {
+  margin-block: 2rem;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding-block: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+label {
+  font-size: 1.2rem;
+}
+
+button {
+  margin-block: 10px;
+  padding-inline: 0.8rem;
+  padding-block: 0.7rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(223, 106, 126);
+  color: #fff;
+}
